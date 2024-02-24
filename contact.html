@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="content.css">
+    <title>Bibek Personal Blog - Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1>Your Personal Blog</h1>
+        <p>Express Yourself!</p>
+        <!-- Optional logo image can be added here -->
+    </header>
+
+    <nav>
+        <!-- Navigation bar with links to other pages -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="main-section">
+            <h2>Contact Me</h2>
+            <p>
+                Feel free to reach out! You can contact me via email at <a href="mailto:bibekshrestha9808@gmail.com">bibekshrestha9808@gmail.com</a>.
+            </p>
+
+            <form action="process_contact_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <aside>
+            <h3>Links</h3>
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <h3>Useful Resources</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Resource</th>
+                        <th>Description</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MDN Web Docs</td>
+                        <td>Comprehensive web development documentation</td>
+                        <td><a href="https://developer.mozilla.org/en-US/">Visit</a></td>
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td>Version control platform for collaborative coding</td>
+                        <td><a href="https://github.com/">Explore</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stack Overflow</td>
+                        <td>Community-driven Q&A for programmers</td>
+                        <td><a href="https://stackoverflow.com/">Solve</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Personal Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
